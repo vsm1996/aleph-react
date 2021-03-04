@@ -1,0 +1,19 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(163, 116, 71);
+  color: whitesmoke;
+  font-family: "Bebas Neue", cursive;
+}
+
+.landing__header {
+  margin: 2rem 0;
+  animation: slideInFromTop 1s ease-out;
+}
+
+.landing__link {
+  animation: slideInFromBottom 1s ease-out;
+}
