@@ -12,11 +12,13 @@
 
 .quote {
   display: flex;
+  width: fit-content;
+  overflow: hidden auto;
   justify-content: center;
   text-align: center;
   align-items: center;
-  font-size: 2rem;
-  padding: 0 10rem;
+  font-size: 1.4rem;
+  padding: 0 20%;
   animation: fade-in 1s ease-in-out;
 }
 .quote::selection {

@@ -41,11 +41,11 @@ const QuoteSlider = () => {
   };
 
   return (
-    <Slider className="slider">
-      {data.map((quote, index) => <div key={index} className="quote">
-        {quote.innerHTML}
-      </div>)}
-    </Slider>
+    <Slider className="slider" autoplay={8500}>
+      {
+        data.map((quote, index) => <div key={index} className="quote" dangerouslySetInnerHTML={{ __html: quote.innerHTML }} />)
+      }
+    </Slider >
   )
 }
 
